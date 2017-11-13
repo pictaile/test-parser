@@ -1,0 +1,23 @@
+{
+  "authors": [
+    {
+      "name": "Kostya Ochotnik",
+      "email": "kostya.ochotnik@gmail.com"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.3.0"
+  },
+
+  "autoload": {
+    "psr-4":{
+      "Commands\\": "Commands/",
+      "Parser\\": "Parser/",
+      "Layers\\": "Layers/",
+      "Record\\": "Layers/re1cord/",
+      "Read\\": "Layers/read/"
+
+    }
+  }
+}

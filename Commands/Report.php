@@ -2,10 +2,17 @@
 
 namespace Commands;
 
-class Report {
+use Commands\IRun;
 
-    public function display() {
-        echo "display";
+class Report implements IRun {
+
+    private $url;
+    public function __construct($url) {
+        $this->url = $url;
+    }
+
+    public function run() {
+        echo "report";
         return true;
     }
 }

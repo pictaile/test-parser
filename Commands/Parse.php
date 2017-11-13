@@ -2,10 +2,19 @@
 
 namespace Commands;
 
-class Parser {
+use Commands\IRun;
+use Parser\Parser;
+use
 
-    public function parse($url) {
-        echo $url;
-        return true;
+class Parse implements IRun {
+
+    private $parser;
+    public function __construct($url) {
+        $this->parser = new Parser($url, 'Parser\ImageParser');
+
+    }
+
+    public function run() {
+        $this->parser->parse();
     }
 }
