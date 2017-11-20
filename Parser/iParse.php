@@ -2,5 +2,5 @@
 namespace Parser;
 
 interface iParse {
-    public function parse();
+    public function parse($data);
 }

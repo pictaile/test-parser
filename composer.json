@@ -15,7 +15,7 @@
       "Commands\\": "Commands/",
       "Parser\\": "Parser/",
       "Layers\\": "Layers/",
-      "Record\\": "Layers/re1cord/",
+      "Record\\": "Layers/record/",
       "Read\\": "Layers/read/"
 
     }

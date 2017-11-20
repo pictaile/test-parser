@@ -4,7 +4,7 @@ namespace Commands;
 
 use Commands\IRun;
 use Parser\Parser;
-use
+
 
 class Parse implements IRun {
 
