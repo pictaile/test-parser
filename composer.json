@@ -16,6 +16,7 @@
       "Parser\\": "Parser/",
       "Layers\\": "Layers/",
       "Record\\": "Layers/record/",
+      "Report\\": "Report/",
       "Reader\\": "Layers/read/"
 
     }

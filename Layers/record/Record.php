@@ -4,5 +4,5 @@ namespace Record;
 
 interface Record {
 
-    public function save($results);
+    public function save($results, $name);
 }

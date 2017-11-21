@@ -25,7 +25,7 @@ Class Parser {
     public function parse() {
         $data = $this->read->read($this->url->getDomain());
         $result = $this->elem->parse($data);
-        $this->record->save($result);
+        $this->record->save($result, $this->url->getHost() );
     }
 
 }

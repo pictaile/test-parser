@@ -18,4 +18,8 @@ class Url {
         return $this->url;
     }
 
+    public function getHost() {
+        return $this->parsed['host'];
+    }
+
 }

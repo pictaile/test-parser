@@ -5,7 +5,7 @@ use Record\Record;
 
 class RecordXml implements Record {
 
-    public function save($result) {
+    public function save($result, $name) {
         $xml = new \SimpleXMLElement('<xml/>');
 
         foreach ($result as $item) {
@@ -13,6 +13,8 @@ class RecordXml implements Record {
 
          }
 
-        file_put_contents('test.xml', $xml->asXML());
+        file_put_contents($name.'.xml', $xml->asXML());
     }
+
+
 }
