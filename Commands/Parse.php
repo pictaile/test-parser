@@ -15,6 +15,7 @@ class Parse implements IRun {
     }
 
     public function run() {
+
         $this->parser->parse();
     }
 }

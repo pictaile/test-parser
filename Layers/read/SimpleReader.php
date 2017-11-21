@@ -1,8 +1,9 @@
 <?php
 
-namespace Read;
+namespace Reader;
 
-class Read {
+
+class SimpleReader implements Reader {
     private $opts;
     private $url;
 
@@ -17,7 +18,7 @@ class Read {
     }
 
 
-    function byFileGetContents($url) {
+    function read($url) {
 
         return file_get_contents($url, false, stream_context_create($this->opts));
     }

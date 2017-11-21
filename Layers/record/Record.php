@@ -2,15 +2,7 @@
 
 namespace Record;
 
-class Record {
+interface Record {
 
-    public function save($results) {
-
-        foreach ($results as $item) {
-            if (!empty($item)) {
-                fputcsv($this->file, [$domain, $this->checkImageUrl($image[2], $domain)], ";");
-            }
-        }
-
-    }
+    public function save($results);
 }
