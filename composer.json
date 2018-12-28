@@ -1,8 +1,14 @@
 {
+  "name": "pictaile/test-parser",
+  "type": "library",
+  "description": "simple text parser",
+  "keywords": ["text","parser","php" ],
+  "license": "MIT",
   "authors": [
     {
       "name": "Kostya Ochotnik",
-      "email": "kostya.ochotnik@gmail.com"
+      "email": "kostya.ochotnik@gmail.com",
+      "role": "Developer"
     }
   ],
 
